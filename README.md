@@ -61,7 +61,7 @@ The system is designed for school and workplace moderation contexts, where false
 | Fairness gap (max − min subgroup FPR) | 0.331 | 0.087 |
 | Recall at chosen threshold | 0.0374 (thr=0.93) | 0.3866 (thr=0.95) |
 
-The overall fairness gap reduced by **74%** from baseline to DistilBERT. SHAP analysis confirmed that the TF-IDF baseline learned identity-term shortcuts — the token "black" alone had a SHAP value exceeding 1.0, more than twice any other feature. Counterfactual testing showed the largest score gap was between "gay" and "straight" substitutions (0.6279), confirming distributional shortcut learning rather than genuine toxicity detection.
+The overall fairness gap reduced by **74%** from baseline to DistilBERT. SHAP analysis confirmed that the TF-IDF baseline learned identity-term shortcuts - the token "black" alone had a SHAP value exceeding 1.0, more than twice any other feature. Counterfactual testing showed the largest score gap was between "gay" and "straight" substitutions (0.6279), confirming distributional shortcut learning rather than genuine toxicity detection.
 
 ---
 
