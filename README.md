@@ -146,7 +146,7 @@ The following resources directly informed the implementation:
 
 - The dataset contains offensive and potentially harmful language. Explicit slurs are not reproduced in the notebook output.
 - The dataset is publicly available and anonymised at source. No personal data was collected or processed.
-- The system is designed as **moderation support** — human reviewers make final decisions. Automated enforcement is explicitly out of scope.
+- The system is designed as **moderation support** - human reviewers make final decisions. Automated enforcement is explicitly out of scope.
 - Subgroup evaluation is central to the project because identity-linked false positives cause direct harm in safeguarding and HR contexts.
 
 ---
