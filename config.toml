@@ -1,0 +1,18 @@
+# this forces Streamlit into light mode regardless of OS dark mode setting
+[theme]
+base = "light"
+
+# this sets the primary accent to royal blue used on buttons, sliders and focus rings
+primaryColor = "#2563eb"
+
+# this sets the main page background to a very light sky blue
+backgroundColor = "#eef4fb"
+
+# this sets the sidebar and input secondary background
+secondaryBackgroundColor = "#dbeafe"
+
+# this sets the default text colour to deep navy
+textColor = "#0a1f3c"
+
+# this sets the font to a clean modern sans-serif
+font = "sans serif"
